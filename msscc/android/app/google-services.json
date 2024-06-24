@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1058178655174",
+    "firebase_url": "https://cristoversiontwo-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "cristoversiontwo",
+    "storage_bucket": "cristoversiontwo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058178655174:android:9bb6f54a6ec1f37b2d88c7",
+        "android_client_info": {
+          "package_name": "com.boscosoft.msscc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058178655174-6bree408ongbfq3ml3hs24dh0ckuog8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqcsw5aWVqD5jszWuMiYIuhHGX8aa6uNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1058178655174-6bree408ongbfq3ml3hs24dh0ckuog8r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

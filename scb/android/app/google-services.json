@@ -1,0 +1,533 @@
+{
+  "project_info": {
+    "project_number": "1058178655174",
+    "firebase_url": "https://cristoversiontwo-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "cristoversiontwo",
+    "storage_bucket": "cristoversiontwo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058178655174:android:362af117e1a1474e2d88c7",
+        "android_client_info": {
+          "package_name": "com.boscosoft.chengai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058178655174-6bree408ongbfq3ml3hs24dh0ckuog8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqcsw5aWVqD5jszWuMiYIuhHGX8aa6uNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1058178655174-6bree408ongbfq3ml3hs24dh0ckuog8r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058178655174:android:d9fbdbf8776b84aa2d88c7",
+        "android_client_info": {
+          "package_name": "com.boscosoft.chingleputDiocese"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058178655174-6bree408ongbfq3ml3hs24dh0ckuog8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqcsw5aWVqD5jszWuMiYIuhHGX8aa6uNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1058178655174-6bree408ongbfq3ml3hs24dh0ckuog8r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058178655174:android:d87fda7e963311692d88c7",
+        "android_client_info": {
+          "package_name": "com.boscosoft.cristo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058178655174-6bree408ongbfq3ml3hs24dh0ckuog8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqcsw5aWVqD5jszWuMiYIuhHGX8aa6uNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1058178655174-6bree408ongbfq3ml3hs24dh0ckuog8r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058178655174:android:36b167706c873e3a2d88c7",
+        "android_client_info": {
+          "package_name": "com.boscosoft.deLaSalleBrothersMaduraiProvince"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058178655174-6bree408ongbfq3ml3hs24dh0ckuog8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqcsw5aWVqD5jszWuMiYIuhHGX8aa6uNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1058178655174-6bree408ongbfq3ml3hs24dh0ckuog8r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058178655174:android:9eb691ee014eaf3d2d88c7",
+        "android_client_info": {
+          "package_name": "com.boscosoft.instituteBlessedVirginMary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058178655174-6bree408ongbfq3ml3hs24dh0ckuog8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqcsw5aWVqD5jszWuMiYIuhHGX8aa6uNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1058178655174-6bree408ongbfq3ml3hs24dh0ckuog8r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058178655174:android:c993c05d588c08c52d88c7",
+        "android_client_info": {
+          "package_name": "com.boscosoft.khristJyotiProvinceRaipur"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058178655174-6bree408ongbfq3ml3hs24dh0ckuog8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqcsw5aWVqD5jszWuMiYIuhHGX8aa6uNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1058178655174-6bree408ongbfq3ml3hs24dh0ckuog8r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058178655174:android:ef99a13b9a4a50522d88c7",
+        "android_client_info": {
+          "package_name": "com.boscosoft.lasadindia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058178655174-6bree408ongbfq3ml3hs24dh0ckuog8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqcsw5aWVqD5jszWuMiYIuhHGX8aa6uNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1058178655174-6bree408ongbfq3ml3hs24dh0ckuog8r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058178655174:android:0820a4b094ddf4a62d88c7",
+        "android_client_info": {
+          "package_name": "com.boscosoft.missionariesofScreatjesus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058178655174-6bree408ongbfq3ml3hs24dh0ckuog8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqcsw5aWVqD5jszWuMiYIuhHGX8aa6uNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1058178655174-6bree408ongbfq3ml3hs24dh0ckuog8r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058178655174:android:9bb6f54a6ec1f37b2d88c7",
+        "android_client_info": {
+          "package_name": "com.boscosoft.msscc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058178655174-6bree408ongbfq3ml3hs24dh0ckuog8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqcsw5aWVqD5jszWuMiYIuhHGX8aa6uNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1058178655174-6bree408ongbfq3ml3hs24dh0ckuog8r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058178655174:android:f95b15f75aa900962d88c7",
+        "android_client_info": {
+          "package_name": "com.boscosoft.nagpur"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058178655174-6bree408ongbfq3ml3hs24dh0ckuog8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqcsw5aWVqD5jszWuMiYIuhHGX8aa6uNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1058178655174-6bree408ongbfq3ml3hs24dh0ckuog8r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058178655174:android:9d69813624bd9fa12d88c7",
+        "android_client_info": {
+          "package_name": "com.boscosoft.prabhuPrakashProvince"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058178655174-6bree408ongbfq3ml3hs24dh0ckuog8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqcsw5aWVqD5jszWuMiYIuhHGX8aa6uNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1058178655174-6bree408ongbfq3ml3hs24dh0ckuog8r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058178655174:android:2507cb2e0a1790af2d88c7",
+        "android_client_info": {
+          "package_name": "com.boscosoft.scb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058178655174-6bree408ongbfq3ml3hs24dh0ckuog8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqcsw5aWVqD5jszWuMiYIuhHGX8aa6uNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1058178655174-6bree408ongbfq3ml3hs24dh0ckuog8r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058178655174:android:da4a1ade6d702a0d2d88c7",
+        "android_client_info": {
+          "package_name": "com.boscosoft.shm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058178655174-6bree408ongbfq3ml3hs24dh0ckuog8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqcsw5aWVqD5jszWuMiYIuhHGX8aa6uNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1058178655174-6bree408ongbfq3ml3hs24dh0ckuog8r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058178655174:android:6ba4b2567b00b1542d88c7",
+        "android_client_info": {
+          "package_name": "com.boscosoft.southkeralaocd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058178655174-6bree408ongbfq3ml3hs24dh0ckuog8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqcsw5aWVqD5jszWuMiYIuhHGX8aa6uNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1058178655174-6bree408ongbfq3ml3hs24dh0ckuog8r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058178655174:android:af8314a472f4551c2d88c7",
+        "android_client_info": {
+          "package_name": "com.boscosoft.stAnnesChennaiProvince"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058178655174-6bree408ongbfq3ml3hs24dh0ckuog8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqcsw5aWVqD5jszWuMiYIuhHGX8aa6uNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1058178655174-6bree408ongbfq3ml3hs24dh0ckuog8r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058178655174:android:9564dbd8c59d7e682d88c7",
+        "android_client_info": {
+          "package_name": "com.boscosoft.stJosephProvinceEluru"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058178655174-6bree408ongbfq3ml3hs24dh0ckuog8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqcsw5aWVqD5jszWuMiYIuhHGX8aa6uNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1058178655174-6bree408ongbfq3ml3hs24dh0ckuog8r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058178655174:android:0d313f4be3f9acea2d88c7",
+        "android_client_info": {
+          "package_name": "com.boscosoft.svdINM"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058178655174-6bree408ongbfq3ml3hs24dh0ckuog8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqcsw5aWVqD5jszWuMiYIuhHGX8aa6uNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1058178655174-6bree408ongbfq3ml3hs24dh0ckuog8r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058178655174:android:92f5b114e6c734a62d88c7",
+        "android_client_info": {
+          "package_name": "com.boscosoft.svdinm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058178655174-6bree408ongbfq3ml3hs24dh0ckuog8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqcsw5aWVqD5jszWuMiYIuhHGX8aa6uNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1058178655174-6bree408ongbfq3ml3hs24dh0ckuog8r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

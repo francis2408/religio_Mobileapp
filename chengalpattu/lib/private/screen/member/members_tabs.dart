@@ -1,0 +1,200 @@
+import 'package:chengai/widget/widget.dart';
+import 'package:flutter/material.dart';
+import 'package:loading_indicator/loading_indicator.dart';
+
+import 'member_list.dart';
+
+class MemberTabsScreen extends StatefulWidget {
+  const MemberTabsScreen({Key? key}) : super(key: key);
+
+  @override
+  State<MemberTabsScreen> createState() => _MemberTabsScreenState();
+}
+
+class _MemberTabsScreenState extends State<MemberTabsScreen> with SingleTickerProviderStateMixin {
+  late TabController _tabController;
+  final bool _canPop = true;
+  bool _isLoading = true;
+
+  List tabs = ["All", "Diocesan", "Religious", "Deacon"] ;
+  List<Widget> tabsContent = [
+    const MemberListScreen(),
+    const MemberListScreen(),
+    const MemberListScreen(),
+    const MemberListScreen(),
+  ];
+
+  @override
+  void initState() {
+    super.initState();
+    selectedTab = "All";
+    Future.delayed(const Duration(milliseconds: 300), () {
+      setState(() {
+        _isLoading = false;
+        _tabController = TabController(length: tabs.length, vsync: this);
+      });
+    });
+  }
+
+  @override
+  void dispose() {
+    _tabController.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    Size size = MediaQuery.of(context).size;
+    return WillPopScope(
+      onWillPop: () async {
+        if(_canPop) {
+          selectedTab = "All";
+          return true;
+        } else {
+          return false;
+        }
+      },
+      child: Scaffold(
+        backgroundColor: screenBackgroundColor,
+        appBar: AppBar(
+          title: const Text('Members'),
+          centerTitle: true,
+          backgroundColor: backgroundColor,
+          flexibleSpace: Container(
+            decoration: const BoxDecoration(
+                gradient: LinearGradient(
+                    colors: [
+                      Color(0xFFFF512F),
+                      Color(0xFFF09819)
+                    ],
+                    begin: Alignment.topLeft,
+                    end: Alignment.bottomRight
+                )
+            ),
+          ),
+          leading: navigation != true ? IconButton(
+            onPressed: () {
+              Navigator.pop(context, 'refresh');
+            },
+            icon: Icon(Icons.arrow_back, color: Colors.white,size: size.height * 0.03,),
+          ) : Container(),
+          actions: [
+            IconButton(
+              onPressed: () {
+                _isLoading = true;
+                setState(() {
+                  if(_isLoading) {
+                    Future.delayed(const Duration(milliseconds: 300), () {
+                      setState(() {
+                        _isLoading = false;
+                      });
+                    });
+                  }
+                });
+              },
+              icon: const Icon(Icons.refresh, color: Colors.white,size: 30,),
+            )
+          ],
+        ),
+        body: SafeArea(
+          child: _isLoading ? Center(
+            child: SizedBox(
+              height: size.height * 0.06,
+              child: const LoadingIndicator(
+                indicatorType: Indicator.ballSpinFadeLoader,
+                colors: [Colors.red,Colors.orange,Colors.yellow,Colors.green,Colors.blue,Colors.indigo,Colors.purple,],
+              ),
+            ),
+          ) : DefaultTabController(
+            length: tabs.length,
+            child: Column(
+              children: [
+                SizedBox(height: size.height * 0.01,),
+                SizedBox(
+                  height: size.height * 0.04,
+                  child: TabBar(
+                    controller: _tabController,
+                    unselectedLabelColor: textColor,
+                    indicatorSize: TabBarIndicatorSize.tab,
+                    isScrollable: true,
+                    labelPadding: const EdgeInsets.symmetric(horizontal: 5),
+                    indicator: BoxDecoration(
+                      borderRadius: BorderRadius.circular(8),
+                      color: tabColor,
+                      border: Border.all(
+                        color: tabColor,
+                        width: 1.5,
+                      ),
+                    ),
+                    tabs: [
+                      Tab(
+                        child: Container(
+                          padding: EdgeInsets.only(left: size.width * 0.05, right: size.width * 0.05),
+                          decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(10),
+                              border: Border.all(color: tabColor, width: 1.5)),
+                          child: const Align(
+                            alignment: Alignment.center,
+                            child: Text("All"),
+                          ),
+                        ),
+                      ),
+                      Tab(
+                        child: Container(
+                          padding: EdgeInsets.only(left: size.width * 0.05, right: size.width * 0.05),
+                          decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(10),
+                              border: Border.all(color: tabColor, width: 1.5)),
+                          child: const Align(
+                            alignment: Alignment.center,
+                            child: Text("Diocesan"),
+                          ),
+                        ),
+                      ),
+                      Tab(
+                        child: Container(
+                          padding: EdgeInsets.only(left: size.width * 0.05, right: size.width * 0.05),
+                          decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(10),
+                              border: Border.all(color: tabColor, width: 1.5)),
+                          child: const Align(
+                            alignment: Alignment.center,
+                            child: Text("Religious"),
+                          ),
+                        ),
+                      ),
+                      Tab(
+                        child: Container(
+                          padding: EdgeInsets.only(left: size.width * 0.05, right: size.width * 0.05),
+                          decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(10),
+                              border: Border.all(color: tabColor, width: 1.5)),
+                          child: const Align(
+                            alignment: Alignment.center,
+                            child: Text("Deacon"),
+                          ),
+                        ),
+                      ),
+                    ],
+                    onTap: (index) {
+                      setState(() {
+                        selectedTab = tabs[index];
+                      });
+                    },
+                  ),
+                ),
+                Expanded(
+                  child: TabBarView(
+                    controller: _tabController,
+                    physics: const NeverScrollableScrollPhysics(),
+                    children: tabsContent,
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
